@@ -29,3 +29,21 @@ public:
         Spesiespiranha::habitatpiranha = habitatpiranha;
         
     }
+    
+    void perolehInfo (void)
+
+    {
+    	cout << "---------------------------------------------------------------- " << endl;
+    	cout << "-----------------------SP-------------------------------------- " << endl;
+
+    	
+        cout << "Nama Piranha         : " << namapiranha << endl;
+        cout << "Jenis Piranha             : " << jenispiranha << endl;
+        cout << "Nama Latin            : " << namalatin << endl;
+        cout << "Warna Sisik      	      : " << warnasisik << endl;
+        cout << "Panjang Gigi     : " << panjanggigi <<"Cm"<< endl;
+        cout << "Habitat Piranha      : " << habitatpiranha << endl;
+        
+        cout << endl;
+    };
+    };
